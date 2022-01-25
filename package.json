@@ -23,10 +23,22 @@
   "dependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/graphql": "^9.1.2",
     "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/typeorm": "^8.0.3",
+    "@types/graphql": "^14.5.0",
+    "apollo-server-express": "^3.6.2",
+    "dataloader": "^2.0.0",
+    "graphql": "^16.2.0",
+    "graphql-tools": "^8.2.0",
+    "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "sqlite3": "^5.0.2",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.41",
+    "voyager": "^0.4.13"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
