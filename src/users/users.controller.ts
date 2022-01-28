@@ -8,9 +8,7 @@ export class UsersController {
     constructor(private usersService:UsersService){}
 
     @Post()
-    async createAdminUser(
-        @Body() createUserDto:CreateUserDto,
-    ):Promise<ReturnUserDto>{
+    async createAdminUser( @Body() createUserDto:CreateUserDto):Promise<ReturnUserDto>{
         const user = await this.usersService.createAdminUser(createUserDto);
         return {
             user,

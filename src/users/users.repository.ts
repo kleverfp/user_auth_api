@@ -1,5 +1,5 @@
 import { EntityRepository, Repository } from 'typeorm';
-import { User } from './users.entity';
+import { User } from '../db/models/user.entity';
 import * as bcrypt from 'bcrypt';
 import * as crypto from 'crypto';
 import {ConflictException,InternalServerErrorException} from '@nestjs/common';
